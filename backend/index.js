@@ -20,9 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:['http://localhost:5173',
-            'https://58w72jkk-5173.inc1.devtunnels.ms/'
-            ],
+    origin:'https://powerflex.onrender.com',
     credentials:true
 }
 
