@@ -3,7 +3,7 @@ import Navbar from './shared/Navbar';
 import Footer from './shared/Footer';
 import { motion } from 'framer-motion';
 import about1 from '../assets/meera.jpg';
-import about2 from '../assets/guided.jpg';
+import about2 from '../assets/guided.webp';
 import { FaChartLine, FaCheckCircle, FaBolt } from 'react-icons/fa';
 
 const sectionVariants = {

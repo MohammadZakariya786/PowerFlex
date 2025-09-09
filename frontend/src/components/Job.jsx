@@ -5,8 +5,22 @@ import { Avatar, AvatarImage } from './ui/avatar'
 import { Badge } from './ui/badge'
 import { useNavigate } from 'react-router-dom'
 
+import { useSelector } from 'react-redux';
+import { toast } from 'sonner'
+
+
 const Job = ({ job }) => {
     const navigate = useNavigate();
+    const { user } = useSelector(store => store.auth);
+
+const handleDetailsClick = () => {
+    if (!user) {
+        toast.error("Please login first to access job details");
+        return; // Stop navigation
+    }
+    navigate(`/description/${job._id}`);
+}
+
 
     const daysAgoFunction = (mongodbTime) => {
         const createdAt = new Date(mongodbTime);
@@ -64,7 +78,7 @@ const Job = ({ job }) => {
             {/* buttons */}
             <div className='flex items-center gap-3 mt-4 flex-wrap'>
                 <Button
-                    onClick={() => navigate(`/description/${job?._id}`)}
+                    onClick={handleDetailsClick}
                     variant="outline"
                     className="flex-1 sm:flex-none"
                 >

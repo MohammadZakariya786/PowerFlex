@@ -38,7 +38,7 @@ export default function MealPlan() {
               key={g}
               onClick={() => setGoal(g)}
               className={`px-4 py-2 rounded-full font-semibold transition-transform transform hover:scale-105 ${
-                goal === g ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-800'
+                goal === g ? 'bg-purple-600 text-white' : 'bg-gray-200 text-gray-800'
               }`}
               aria-pressed={goal === g}
             >
@@ -70,7 +70,7 @@ export default function MealPlan() {
               key={d}
               onClick={() => setDays(d)}
               className={`px-4 py-2 rounded-full font-semibold transition-transform transform hover:scale-105 ${
-                days === d ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'
+                days === d ? 'bg-purple-600 text-white' : 'bg-gray-200 text-gray-800'
               }`}
               aria-pressed={days === d}
             >

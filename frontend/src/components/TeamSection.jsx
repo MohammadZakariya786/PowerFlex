@@ -8,12 +8,12 @@ import meera from '../assets/meera.jpg';
 const teamMembers = [
   {
     name: 'Mohammad Zakariya',
-    role: 'Project Lead',
+    role: 'Web Developer',
     photo: anjali,
   },
   {
     name: 'Rohan Gupta',
-    role: 'Frontend Developer',
+    role: 'UI/UX Designer',
     photo: rohan,
   },
   {
@@ -23,7 +23,7 @@ const teamMembers = [
   },
   {
     name: 'Meera Sharma',
-    role: 'UI/UX Designer',
+    role: 'Project Manager',
     photo: meera,
   },
 ];

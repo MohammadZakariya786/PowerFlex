@@ -12,7 +12,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { setLoading, setUser } from '@/redux/authSlice'
 import { Loader2 } from 'lucide-react'
 import { motion } from 'framer-motion'
-import bgImage from '../../assets/signup-illustration.jpg'
+import bgImage from '../../assets/signup-illustration.webp'
 
 const Login = () => {
     const [input, setInput] = useState({

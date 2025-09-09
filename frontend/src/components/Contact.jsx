@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './shared/Navbar';
 import Footer from './shared/Footer';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
-import contactIllustration from '../assets/CTA.jpg';
+import contactIllustration from '../assets/CTA.webp';
 
 export default function Contact() {
   return (
@@ -13,25 +13,25 @@ export default function Contact() {
         {/* Form Section */}
         <div className="md:flex-1 flex items-center justify-center p-6 md:p-12 bg-black">
           <div className="w-full max-w-lg space-y-6">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-indigo-600">
+            <h2 className="text-3xl md:text-4xl font-extrabold  text-white">
               Get in Touch
             </h2>
-            <p className="text-white">
+            <p className="text-white/70">
               We'd love to hear from you! Whether you have a question about features, pricing,
               or anything else, our team is ready to assist you.
             </p>
 
             <div className="space-y-6">
               <div className="flex items-center">
-                <FaPhoneAlt className="text-indigo-600 w-5 h-5 mr-3" />
-                <span className="text-white">+1 (555) 123-4567</span>
+                <FaPhoneAlt className="text-purple-500 w-5 h-5 mr-3" />
+                <span className="text-white">(+91) 7376997709</span>
               </div>
               <div className="flex items-center">
-                <FaEnvelope className="text-indigo-600 w-5 h-5 mr-3" />
+                <FaEnvelope className="text-purple-500 w-5 h-5 mr-3" />
                 <span className="text-white">support@powerflex.com</span>
               </div>
               <div className="flex items-center">
-                <FaMapMarkerAlt className="text-indigo-600 w-5 h-5 mr-3" />
+                <FaMapMarkerAlt className="text-purple-500 w-5 h-5 mr-3" />
                 <span className="text-white">123 Fitness Ave, Lucknow,UP,India</span>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function Contact() {
                   type="text"
                   id="name"
                   placeholder="Your Name"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                   required
                 />
               </div>
@@ -57,7 +57,7 @@ export default function Contact() {
                   type="email"
                   id="email"
                   placeholder="you@example.com"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                   required
                 />
               </div>
@@ -69,13 +69,13 @@ export default function Contact() {
                   id="message"
                   rows="4"
                   placeholder="How can we help you?"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                   required
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-lg hover:opacity-90 transition"
+                className="w-full py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-lg hover:opacity-90 transition"
               >
                 Send Message
               </button>

@@ -13,7 +13,7 @@ import { setLoading } from '@/redux/authSlice';
 import { Loader2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { FaUser, FaEnvelope, FaPhone, FaLock } from 'react-icons/fa';
-import signupIllustration from '../../assets/signup-illustration.jpg';
+import signupIllustration from '../../assets/signup-illustration.webp';
 
 const Signup = () => {
   const [input, setInput] = useState({
@@ -152,7 +152,7 @@ const Signup = () => {
     <div className="min-h-screen bg-gradient-to-br from-gray-100 to-white">
       <Navbar />
       <div className="flex flex-col md:flex-row items-center justify-center max-w-7xl mx-auto my-10 px-4">
-        <div className="hidden md:block w-1/2 pr-10">
+        <div className="md:block md:w-1/2 md:pr-10 pb-5 md:pb-0">
           <img src={signupIllustration} alt="Sign Up Illustration" className="rounded-lg shadow-md w-full" />
         </div>
         <motion.form

@@ -40,82 +40,84 @@ export const mealData = {
       ]
     }
   },
-  muscleGain: {
-    veg: {
-      15: [
-        { name: 'Tofu Stir-Fry', img: 'https://www.shutterstock.com/image-photo/tofu-stirfry-mixed-vegetables-arranged-260nw-2505328795.jpg', description: 'Tofu cubes with mixed veggies.', nutrients: 'Protein: 14g, Carbs: 20g, Fat: 8g' },
-        { name: 'Rajma Brown Rice', img: '/assets/rajma-rice.jpg', description: 'Kidney beans with brown rice.', nutrients: 'Protein: 14g, Carbs: 50g, Fiber: 8g' },
-        { name: 'Dal Makhani', img: '/assets/dal-makhani.jpg', description: 'Creamy black lentils.', nutrients: 'Protein: 16g, Carbs: 30g, Fat: 14g' },
-        { name: 'Paneer Tawa Masala', img: '/assets/paneer-tawa.jpg', description: 'Paneer in rich tomato gravy.', nutrients: 'Protein: 20g, Carbs: 10g, Fat: 15g' },
-        { name: 'Sprouted Moong Salad', img: '/assets/sprouted-moong.jpg', description: 'Sprouted lentils with veggies.', nutrients: 'Protein: 10g, Fiber: 6g, Carbs: 10g' },
-        { name: 'Protein Smoothie', img: '/assets/protein-smoothie.jpg', description: 'Whey protein shake with fruits.', nutrients: 'Protein: 25g, Carbs: 20g, Fat: 5g' }
-      ],
-      30: [
-        { name: 'Tofu Stir-Fry', img: '/assets/tofu-stirfry.jpg', description: 'Tofu cubes with mixed veggies.', nutrients: 'Protein: 14g, Carbs: 20g, Fat: 8g' },
-        { name: 'Rajma Brown Rice', img: '/assets/rajma-rice.jpg', description: 'Kidney beans with brown rice.', nutrients: 'Protein: 14g, Carbs: 50g, Fiber: 8g' },
-        { name: 'Dal Makhani', img: '/assets/dal-makhani.jpg', description: 'Creamy black lentils.', nutrients: 'Protein: 16g, Carbs: 30g, Fat: 14g' },
-        { name: 'Paneer Tawa Masala', img: '/assets/paneer-tawa.jpg', description: 'Paneer in rich tomato gravy.', nutrients: 'Protein: 20g, Carbs: 10g, Fat: 15g' },
-        { name: 'Sprouted Moong Salad', img: '/assets/sprouted-moong.jpg', description: 'Sprouted lentils with veggies.', nutrients: 'Protein: 10g, Fiber: 6g, Carbs: 10g' },
-        { name: 'Protein Smoothie', img: '/assets/protein-smoothie.jpg', description: 'Whey protein shake with fruits.', nutrients: 'Protein: 25g, Carbs: 20g, Fat: 5g' }
-      ]
-    },
-    nonveg: {
-      15: [
-        { name: 'Grilled Chicken Breast', img: '/assets/grilled-chicken.jpg', description: 'Chicken breast grilled with herbs.', nutrients: 'Protein: 35g, Carbs: 0g, Fat: 3g' },
-        { name: 'Fish Curry', img: '/assets/fish-curry.jpg', description: 'Spiced fish curry.', nutrients: 'Protein: 30g, Carbs: 10g, Fat: 10g' },
-        { name: 'Egg White Omelette', img: '/assets/egg-white-omelette.jpg', description: 'Egg whites with spinach.', nutrients: 'Protein: 20g, Carbs: 2g, Fat: 0g' },
-        { name: 'Chicken Tikka', img: '/assets/chicken-tikka.jpg', description: 'Spiced grilled chicken chunks.', nutrients: 'Protein: 30g, Carbs: 5g, Fat: 10g' },
-        { name: 'Turkey Meatballs', img: '/assets/turkey-meatballs.jpg', description: 'Turkey meatballs in tomato sauce.', nutrients: 'Protein: 25g, Carbs: 10g, Fat: 12g' },
-        { name: 'Protein Shake', img: '/assets/protein-shake.jpg', description: 'Whey protein with milk.', nutrients: 'Protein: 30g, Carbs: 20g, Fat: 5g' }
-      ],
-      30: [
-        { name: 'Grilled Chicken Breast', img: '/assets/grilled-chicken.jpg', description: 'Chicken breast grilled with herbs.', nutrients: 'Protein: 35g, Carbs: 0g, Fat: 3g' },
-        { name: 'Fish Curry', img: '/assets/fish-curry.jpg', description: 'Spiced fish curry.', nutrients: 'Protein: 30g, Carbs: 10g, Fat: 10g' },
-        { name: 'Egg White Omelette', img: '/assets/egg-white-omelette.jpg', description: 'Egg whites with spinach.', nutrients: 'Protein: 20g, Carbs: 2g, Fat: 0g' },
-        { name: 'Chicken Tikka', img: '/assets/chicken-tikka.jpg', description: 'Spiced grilled chicken chunks.', nutrients: 'Protein: 30g, Carbs: 5g, Fat: 10g' },
-        { name: 'Turkey Meatballs', img: '/assets/turkey-meatballs.jpg', description: 'Turkey meatballs in tomato sauce.', nutrients: 'Protein: 25g, Carbs: 10g, Fat: 12g' },
-        { name: 'Protein Shake', img: '/assets/protein-shake.jpg', description: 'Whey protein with milk.', nutrients: 'Protein: 30g, Carbs: 20g, Fat: 5g' }
-      ]
-    }
+  muscleGain :{
+  veg: {
+    15: [
+      { name: 'Tofu Stir-Fry', img: 'https://www.funfoodfrolic.com/wp-content/uploads/2020/03/Tofu-Stir-Fry-3.jpg', description: 'Tofu cubes with mixed veggies.', nutrients: 'Protein: 14g, Carbs: 20g, Fat: 8g' },
+      { name: 'Rajma Brown Rice', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtM20qayB8Ef9lF_Q2syBKrwr8w0awYFohmQ&s', description: 'Kidney beans with brown rice.', nutrients: 'Protein: 14g, Carbs: 50g, Fiber: 8g' },
+      { name: 'Dal Makhani', img: 'https://sinfullyspicy.com/wp-content/uploads/2015/03/1200-by-1200-images-1.jpg', description: 'Creamy black lentils.', nutrients: 'Protein: 16g, Carbs: 30g, Fat: 14g' },
+      { name: 'Paneer Tawa Masala', img: 'https://i.ytimg.com/vi/bKqG9vTJNHU/maxresdefault.jpg', description: 'Paneer in rich tomato gravy.', nutrients: 'Protein: 20g, Carbs: 10g, Fat: 15g' },
+      { name: 'Sprouted Moong Salad', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMaF9ozvJGCOCf975dO2ov08VbfkwpJohw_w&s', description: 'Sprouted lentils with veggies.', nutrients: 'Protein: 10g, Fiber: 6g, Carbs: 10g' },
+      { name: 'Protein Smoothie', img: 'https://therecipecritic.com/wp-content/uploads/2023/02/protein-smoothie-3.jpg', description: 'Whey protein shake with fruits.', nutrients: 'Protein: 25g, Carbs: 20g, Fat: 5g' }
+    ],
+    30: [
+      { name: 'Tofu Stir-Fry', img: 'https://www.funfoodfrolic.com/wp-content/uploads/2020/03/Tofu-Stir-Fry-3.jpg', description: 'Tofu cubes with mixed veggies.', nutrients: 'Protein: 14g, Carbs: 20g, Fat: 8g' },
+      { name: 'Rajma Brown Rice', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtM20qayB8Ef9lF_Q2syBKrwr8w0awYFohmQ&s', description: 'Kidney beans with brown rice.', nutrients: 'Protein: 14g, Carbs: 50g, Fiber: 8g' },
+      { name: 'Dal Makhani', img: 'https://sinfullyspicy.com/wp-content/uploads/2015/03/1200-by-1200-images-1.jpg', description: 'Creamy black lentils.', nutrients: 'Protein: 16g, Carbs: 30g, Fat: 14g' },
+      { name: 'Paneer Tawa Masala', img: 'https://i.ytimg.com/vi/bKqG9vTJNHU/maxresdefault.jpg', description: 'Paneer in rich tomato gravy.', nutrients: 'Protein: 20g, Carbs: 10g, Fat: 15g' },
+      { name: 'Sprouted Moong Salad', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMaF9ozvJGCOCf975dO2ov08VbfkwpJohw_w&s', description: 'Sprouted lentils with veggies.', nutrients: 'Protein: 10g, Fiber: 6g, Carbs: 10g' },
+      { name: 'Protein Smoothie', img: 'https://therecipecritic.com/wp-content/uploads/2023/02/protein-smoothie-3.jpg', description: 'Whey protein shake with fruits.', nutrients: 'Protein: 25g, Carbs: 20g, Fat: 5g' }
+    ]
   },
-  weightGain: {
-    veg: {
-      15: [
-        { name: 'Peanut Butter Toast', img: '/assets/peanut-butter-toast.jpg', description: 'Whole-grain bread with peanut butter.', nutrients: 'Protein: 12g, Carbs: 40g, Fat: 16g' },
-        { name: 'Vegetable Pulao', img: '/assets/veg-pulao.jpg', description: 'Rice cooked with veggies.', nutrients: 'Protein: 8g, Carbs: 60g, Fat: 10g' },
-        { name: 'Paneer Butter Masala', img: '/assets/paneer-butter-masala.jpg', description: 'Paneer in creamy tomato gravy.', nutrients: 'Protein: 20g, Carbs: 20g, Fat: 18g' },
-        { name: 'Banana Smoothie', img: '/assets/banana-smoothie.jpg', description: 'Banana with milk and honey.', nutrients: 'Protein: 10g, Carbs: 40g, Fat: 4g' },
-        { name: 'Chole Bhature', img: '/assets/chole-bhature.jpg', description: 'Spiced chickpeas with fried bread.', nutrients: 'Protein: 15g, Carbs: 60g, Fat: 20g' },
-        { name: 'Mixed Nuts', img: '/assets/mixed-nuts.jpg', description: 'Assorted nuts for calories.', nutrients: 'Protein: 8g, Carbs: 10g, Fat: 30g' }
-      ],
-      30: [
-        { name: 'Peanut Butter Toast', img: '/assets/peanut-butter-toast.jpg', description: 'Whole-grain bread with peanut butter.', nutrients: 'Protein: 12g, Carbs: 40g, Fat: 16g' },
-        { name: 'Vegetable Pulao', img: '/assets/veg-pulao.jpg', description: 'Rice cooked with veggies.', nutrients: 'Protein: 8g, Carbs: 60g, Fat: 10g' },
-        { name: 'Paneer Butter Masala', img: '/assets/paneer-butter-masala.jpg', description: 'Paneer in creamy tomato gravy.', nutrients: 'Protein: 20g, Carbs: 20g, Fat: 18g' },
-        { name: 'Banana Smoothie', img: '/assets/banana-smoothie.jpg', description: 'Banana with milk and honey.', nutrients: 'Protein: 10g, Carbs: 40g, Fat: 4g' },
-        { name: 'Chole Bhature', img: '/assets/chole-bhature.jpg', description: 'Spiced chickpeas with fried bread.', nutrients: 'Protein: 15g, Carbs: 60g, Fat: 20g' },
-        { name: 'Mixed Nuts', img: '/assets/mixed-nuts.jpg', description: 'Assorted nuts for calories.', nutrients: 'Protein: 8g, Carbs: 10g, Fat: 30g' }
-      ]
-    },
-    nonveg: {
-      15: [
-        { name: 'Butter Chicken', img: '/assets/butter-chicken.jpg', description: 'Creamy spiced chicken curry.', nutrients: 'Protein: 30g, Carbs: 20g, Fat: 25g' },
-        { name: 'Egg Curry', img: '/assets/egg-curry.jpg', description: 'Eggs cooked in tomato gravy.', nutrients: 'Protein: 25g, Carbs: 10g, Fat: 15g' },
-        { name: 'Fried Fish', img: '/assets/fried-fish.jpg', description: 'Fish fried in oil.', nutrients: 'Protein: 30g, Carbs: 5g, Fat: 20g' },
-        { name: 'Chicken Biryani', img: '/assets/chicken-biryani.jpg', description: 'Spiced chicken with rice.', nutrients: 'Protein: 35g, Carbs: 60g, Fat: 20g' },
-        { name: 'Mutton Curry', img: '/assets/mutton-curry.jpg', description: 'Rich spicy mutton curry.', nutrients: 'Protein: 40g, Carbs: 10g, Fat: 30g' },
-        { name: 'Protein Shake', img: '/assets/protein-shake.jpg', description: 'Whey protein with milk.', nutrients: 'Protein: 30g, Carbs: 20g, Fat: 5g' }
-      ],
-      30: [
-        { name: 'Butter Chicken', img: '/assets/butter-chicken.jpg', description: 'Creamy spiced chicken curry.', nutrients: 'Protein: 30g, Carbs: 20g, Fat: 25g' },
-        { name: 'Egg Curry', img: '/assets/egg-curry.jpg', description: 'Eggs cooked in tomato gravy.', nutrients: 'Protein: 25g, Carbs: 10g, Fat: 15g' },
-        { name: 'Fried Fish', img: '/assets/fried-fish.jpg', description: 'Fish fried in oil.', nutrients: 'Protein: 30g, Carbs: 5g, Fat: 20g' },
-        { name: 'Chicken Biryani', img: '/assets/chicken-biryani.jpg', description: 'Spiced chicken with rice.', nutrients: 'Protein: 35g, Carbs: 60g, Fat: 20g' },
-        { name: 'Mutton Curry', img: '/assets/mutton-curry.jpg', description: 'Rich spicy mutton curry.', nutrients: 'Protein: 40g, Carbs: 10g, Fat: 30g' },
-        { name: 'Protein Shake', img: '/assets/protein-shake.jpg', description: 'Whey protein with milk.', nutrients: 'Protein: 30g, Carbs: 20g, Fat: 5g' }
-      ]
-    }
+  nonveg: {
+    15: [
+      { name: 'Grilled Chicken Breast', img: 'https://www.budgetbytes.com/wp-content/uploads/2024/06/Grilled-Chicken-Overhead-500x500.jpg', description: 'Chicken breast grilled with herbs.', nutrients: 'Protein: 35g, Carbs: 0g, Fat: 3g' },
+      { name: 'Fish Curry', img: 'https://www.licious.in/blog/wp-content/uploads/2022/03/shutterstock_1891229335-min.jpg', description: 'Spiced fish curry.', nutrients: 'Protein: 30g, Carbs: 10g, Fat: 10g' },
+      { name: 'Egg White Omelette', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmYbvlkp8rAgNQVCmefxoHQ47XKCWK3_-bQ&s', description: 'Egg whites with spinach.', nutrients: 'Protein: 20g, Carbs: 2g, Fat: 0g' },
+      { name: 'Chicken Tikka', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzjSTAYdIs9x9NM8NwRHvjUUerXoPO1kU3Ig&s', description: 'Spiced grilled chicken chunks.', nutrients: 'Protein: 30g, Carbs: 5g, Fat: 10g' },
+      { name: 'Turkey Meatballs', img: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRYvHI3VI1w_XDXcXQ-0GrRHTM4DZt6YPMeu59cHhnoG0OMuum3JIsS6sjateBYsrTAXUFTmLN09x71GdCkgpG3XTCojh-lpEBDJXxynh1yfi_5oK8bKJQHEQ', description: 'Turkey meatballs in tomato sauce.', nutrients: 'Protein: 25g, Carbs: 10g, Fat: 12g' },
+      { name: 'Protein Shake', img: 'https://therecipecritic.com/wp-content/uploads/2023/02/protein-smoothie-3.jpg', description: 'Whey protein with milk.', nutrients: 'Protein: 30g, Carbs: 20g, Fat: 5g' }
+    ],
+    30: [
+      { name: 'Grilled Chicken Breast', img: 'https://www.simplyrecipes.com/thmb/EQbIvwJf3v84DZjFAYwG7XK3GB0=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Grilled-Chicken-LEAD-5-58d53a95e0a74e8792f2c3a051ed6f72.jpg', description: 'Chicken breast grilled with herbs.', nutrients: 'Protein: 35g, Carbs: 0g, Fat: 3g' },
+      { name: 'Fish Curry', img: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/06/fish-curry-recipe.jpg', description: 'Spiced fish curry.', nutrients: 'Protein: 30g, Carbs: 10g, Fat: 10g' },
+      { name: 'Egg White Omelette', img: 'https://www.simplyrecipes.com/thmb/FZ6gYc5r8wP7rUk1GVAKP7ZpL5g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Egg-White-Omelet-LEAD-5-9ad04c3f90f14e978c9e5b2dfd28f177.jpg', description: 'Egg whites with spinach.', nutrients: 'Protein: 20g, Carbs: 2g, Fat: 0g' },
+      { name: 'Chicken Tikka', img: 'https://www.cookwithmanali.com/wp-content/uploads/2020/04/Chicken-Tikka-Recipe.jpg', description: 'Spiced grilled chicken chunks.', nutrients: 'Protein: 30g, Carbs: 5g, Fat: 10g' },
+      { name: 'Turkey Meatballs', img: 'https://www.themediterraneandish.com/wp-content/uploads/2018/11/turkey-meatballs-recipe-1.jpg', description: 'Turkey meatballs in tomato sauce.', nutrients: 'Protein: 25g, Carbs: 10g, Fat: 12g' },
+      { name: 'Protein Shake', img: 'https://www.healthshots.com/wp-content/uploads/2021/03/protein-smoothie.jpg', description: 'Whey protein with milk.', nutrients: 'Protein: 30g, Carbs: 20g, Fat: 5g' }
+    ]
   }
+},
+
+  weightGain: {
+  veg: {
+    15: [
+      { name: 'Peanut Butter Toast', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Vm5J5GQdy_ASDtTFeHBl1zVCcJOSfCEedA&s', description: 'Whole-grain bread with peanut butter.', nutrients: 'Protein: 12g, Carbs: 40g, Fat: 16g' },
+      { name: 'Vegetable Pulao', img: 'https://www.cubesnjuliennes.com/wp-content/uploads/2019/11/Veg-Pulao-2.jpg', description: 'Rice cooked with veggies.', nutrients: 'Protein: 8g, Carbs: 60g, Fat: 10g' },
+      { name: 'Paneer Butter Masala', img: 'https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-5.jpg', description: 'Paneer in creamy tomato gravy.', nutrients: 'Protein: 20g, Carbs: 20g, Fat: 18g' },
+      { name: 'Banana Smoothie', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd2Y2aP3l0vdTkSVAnJqNkXPeqmwcNrGT1Pw&s', description: 'Banana with milk and honey.', nutrients: 'Protein: 10g, Carbs: 40g, Fat: 4g' },
+      { name: 'Chole Bhature', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnv8nOd0cc9Nemr_y1JLV41wTUUBg3vYAq2w&s', description: 'Spiced chickpeas with fried bread.', nutrients: 'Protein: 15g, Carbs: 60g, Fat: 20g' },
+      { name: 'Mixed Nuts', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZMk5XzWbpsVhyY6L7Or5lomHKc-9_FvonNw&s', description: 'Assorted nuts for calories.', nutrients: 'Protein: 8g, Carbs: 10g, Fat: 30g' }
+    ],
+    30: [
+      { name: 'Peanut Butter Toast', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Vm5J5GQdy_ASDtTFeHBl1zVCcJOSfCEedA&s', description: 'Whole-grain bread with peanut butter.', nutrients: 'Protein: 12g, Carbs: 40g, Fat: 16g' },
+      { name: 'Vegetable Pulao', img: 'https://www.cubesnjuliennes.com/wp-content/uploads/2019/11/Veg-Pulao-2.jpg', description: 'Rice cooked with veggies.', nutrients: 'Protein: 8g, Carbs: 60g, Fat: 10g' },
+      { name: 'Paneer Butter Masala', img: 'https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-5.jpg', description: 'Paneer in creamy tomato gravy.', nutrients: 'Protein: 20g, Carbs: 20g, Fat: 18g' },
+      { name: 'Banana Smoothie', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd2Y2aP3l0vdTkSVAnJqNkXPeqmwcNrGT1Pw&s', description: 'Banana with milk and honey.', nutrients: 'Protein: 10g, Carbs: 40g, Fat: 4g' },
+      { name: 'Chole Bhature', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnv8nOd0cc9Nemr_y1JLV41wTUUBg3vYAq2w&s', description: 'Spiced chickpeas with fried bread.', nutrients: 'Protein: 15g, Carbs: 60g, Fat: 20g' },
+      { name: 'Mixed Nuts', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZMk5XzWbpsVhyY6L7Or5lomHKc-9_FvonNw&s', description: 'Assorted nuts for calories.', nutrients: 'Protein: 8g, Carbs: 10g, Fat: 30g' }
+    ]
+  },
+  nonveg: {
+    15: [
+      { name: 'Butter Chicken', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTY53Zww8_j72B0sOb6m4o4fOMO0eDtsvvwQ&s', description: 'Creamy spiced chicken curry.', nutrients: 'Protein: 30g, Carbs: 20g, Fat: 25g' },
+      { name: 'Egg Curry', img: 'https://www.kitchensanctuary.com/wp-content/uploads/2025/02/Egg-Curry-Square-FS-500x500.jpg', description: 'Eggs cooked in tomato gravy.', nutrients: 'Protein: 25g, Carbs: 10g, Fat: 15g' },
+      { name: 'Fried Fish', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDDyDqfLl98hMEwjyM6_v4Y3XjfIu6lSZzjQ&s', description: 'Fish fried in oil.', nutrients: 'Protein: 30g, Carbs: 5g, Fat: 20g' },
+      { name: 'Chicken Biryani', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaF6-1Auf1DuOXo9FhalxTrx1j-BnkoOu4A&s', description: 'Spiced chicken with rice.', nutrients: 'Protein: 35g, Carbs: 60g, Fat: 20g' },
+      { name: 'Mutton Curry', img: 'https://lh5.googleusercontent.com/proxy/fm5qZsQ1nm8HztsfW92BSx3XQKt1tl2miFs7fXnbRmwE5bmIR3ADNRXrG0h6fpcNpkggOK684pAHz0bkpBZTvZLVj8bIwot0-h0aDsU', description: 'Rich spicy mutton curry.', nutrients: 'Protein: 40g, Carbs: 10g, Fat: 30g' },
+      { name: 'Protein Shake', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzoZs-pB_Bl9d5HqMhyIeHcLuXy01Z0QQbqg&s', description: 'Whey protein with milk.', nutrients: 'Protein: 30g, Carbs: 20g, Fat: 5g' }
+    ],
+    30: [
+      { name: 'Butter Chicken', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTY53Zww8_j72B0sOb6m4o4fOMO0eDtsvvwQ&s', description: 'Creamy spiced chicken curry.', nutrients: 'Protein: 30g, Carbs: 20g, Fat: 25g' },
+      { name: 'Egg Curry', img: 'https://www.kitchensanctuary.com/wp-content/uploads/2025/02/Egg-Curry-Square-FS-500x500.jpg', description: 'Eggs cooked in tomato gravy.', nutrients: 'Protein: 25g, Carbs: 10g, Fat: 15g' },
+      { name: 'Fried Fish', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDDyDqfLl98hMEwjyM6_v4Y3XjfIu6lSZzjQ&s', description: 'Fish fried in oil.', nutrients: 'Protein: 30g, Carbs: 5g, Fat: 20g' },
+      { name: 'Chicken Biryani', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaF6-1Auf1DuOXo9FhalxTrx1j-BnkoOu4A&s', description: 'Spiced chicken with rice.', nutrients: 'Protein: 35g, Carbs: 60g, Fat: 20g' },
+      { name: 'Mutton Curry', img: 'https://lh5.googleusercontent.com/proxy/fm5qZsQ1nm8HztsfW92BSx3XQKt1tl2miFs7fXnbRmwE5bmIR3ADNRXrG0h6fpcNpkggOK684pAHz0bkpBZTvZLVj8bIwot0-h0aDsU', description: 'Rich spicy mutton curry.', nutrients: 'Protein: 40g, Carbs: 10g, Fat: 30g' },
+      { name: 'Protein Shake', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzoZs-pB_Bl9d5HqMhyIeHcLuXy01Z0QQbqg&s', description: 'Whey protein with milk.', nutrients: 'Protein: 30g, Carbs: 20g, Fat: 5g' }
+    ]
+  }
+}
+
 };
 
 export const routineData = {

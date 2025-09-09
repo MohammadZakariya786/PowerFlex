@@ -52,7 +52,7 @@ export default function Watchvideo() {
               key={cat}
               onClick={() => setCategory(cat)}
               className={`px-4 py-2 rounded-full font-semibold transition-colors ${
-                category === cat ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-800'
+                category === cat ? 'bg-purple-600 text-white' : 'bg-gray-200 text-gray-800'
               }`}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}

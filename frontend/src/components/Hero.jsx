@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import heroBg from '../assets/hh.jpg';
+import heroBg from '../assets/hh.webp';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -33,7 +33,8 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0 bg-gradient-to-r from-black via-transparent to-transparent"></div>
 
       {/* Text Content */}
-      <div className="relative z-10 max-w-2xl px-6 lg:px-16 text-left">
+      <div className="relative z-10 max-w-2xl px-6 lg:px-16 text-left  flex flex-col h-full justify-center  
+      md:translate-y-0 translate-y-40">
         <motion.h1
           className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4"
           custom={1}
@@ -62,7 +63,7 @@ export default function HeroSection() {
         >
           <Link
             to="/login"
-            className="px-6 py-3 bg-green-700 hover:bg-green-600 rounded-full font-semibold transition"
+            className="px-6 py-3 bg-purple-700 hover:bg-purple-600 rounded-full font-semibold transition"
           >
             Post a Job
           </Link>
@@ -77,9 +78,14 @@ export default function HeroSection() {
 
       {/* Scroll Indicator */}
       <motion.div
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce"
+        className="absolute md:bottom-10 bottom-5 left-1/2 transform -translate-x-1/2 animate-bounce"
         initial={{ y: -10 }}
         animate={{ y: 10 }}
+        onClick={()=>window.scrollBy({
+          top:500,
+          left:0,
+          behavior:'smooth'
+        })}
         transition={{ repeat: Infinity, duration: 1 }}
       >
         <span className="block w-3 h-3 border-b-2 border-r-2 border-white transform rotate-45"></span>

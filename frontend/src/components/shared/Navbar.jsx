@@ -19,6 +19,11 @@ const Navbar = () => {
     const location = useLocation()
     const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false)
 
+    const handleNavClick = () => {
+    window.scrollTo(0, 0);
+    setMobileMenuOpen(false);
+  };
+
     useEffect(() => {
         const spacer = document.createElement('div')
         spacer.id = 'navbar-spacer'
@@ -68,10 +73,10 @@ const Navbar = () => {
                             animate={location.pathname === "/" ? { rotate: [0, 360] } : false}
                             transition={{ duration: 1, ease: "easeInOut" }}
                         >
-                            <Dumbbell className="text-[#63fc38] w-6 h-6" />
+                            <Dumbbell className="text-purple-500 w-6 h-6" />
                         </motion.div>
                         <h1 className="text-2xl font-bold tracking-wide text-white">
-                            <span className="text-[#63fc38]">Power<span className="text-white">Flex</span></span>
+                            <span className="text-purple-500">Power<span className="text-white">Flex</span></span>
                         </h1>
                     </Link>
 
@@ -81,7 +86,9 @@ const Navbar = () => {
                                 <li key={link.name}>
                                     <Link
                                         to={link.path}
-                                        className="hover:text-[#69df4b] transition-colors"
+                                        className="hover:text-purple-400  
+                                        hover:border-b-2  hover:border-purple-500 transition-colors"
+                                        onClick={handleNavClick}
                                     >
                                         {link.name}
                                     </Link>
@@ -91,8 +98,8 @@ const Navbar = () => {
 
                         {!user ? (
                             <div className="flex items-center gap-2">
-                                <Link to="/login"><Button variant="outline" className="text-black border-gray-500 hover:bg-[#3be660]">Login</Button></Link>
-                                <Link to="/signup"><Button className="bg-[#6A38C2] hover:bg-[#5b30a6] text-white">Signup</Button></Link>
+                                <Link to="/login" onClick={handleNavClick}><Button variant="outline" className="text-black border-gray-500 hover:bg-[#3be660]">Login</Button></Link>
+                                <Link to="/signup" onClick={handleNavClick}><Button className="bg-[#6A38C2] hover:bg-[#5b30a6] text-white">Signup</Button></Link>
                             </div>
                         ) : (
                             <Popover>
@@ -117,13 +124,14 @@ const Navbar = () => {
                                                 <div className='flex items-center gap-2'>
                                                     <User2 className="w-5 h-5" />
                                                     <Button variant="link" className="p-0 h-auto text-left text-white">
-                                                        <Link to="/profile">View Profile</Link>
+                                                        <Link to="/profile" onClick={handleNavClick}>View Profile</Link>
                                                     </Button>
                                                 </div>
                                             )}
                                             <div className='flex items-center gap-2'>
                                                 <LogOut className="w-5 h-5" />
-                                                <Button onClick={logoutHandler} variant="link" className="p-0 h-auto text-left text-white">
+                                                <Button 
+                                                onClick={() => {logoutHandler(); window.scrollTo(0, 0);}} variant="link" className="p-0 h-auto text-left text-white">
                                                     Logout
                                                 </Button>
                                             </div>
@@ -154,7 +162,7 @@ const Navbar = () => {
                             <li key={link.name}>
                                 <Link
                                     to={link.path}
-                                    onClick={() => setMobileMenuOpen(false)}
+                                    onClick={handleNavClick}
                                     className="hover:text-[#F83002]"
                                 >
                                     {link.name}
@@ -163,21 +171,25 @@ const Navbar = () => {
                         ))}
                         {!user ? (
                             <>
-                                <li><Link to="/login" onClick={() => setMobileMenuOpen(false)}>Login</Link></li>
-                                <li><Link to="/signup" onClick={() => setMobileMenuOpen(false)}>Signup</Link></li>
+                                <li><Link to="/login" 
+                                onClick={() => {window.scrollTo(0, 0);setMobileMenuOpen(false)}}>Login</Link></li>
+                                <li><Link to="/signup" 
+                                onClick={() => {window.scrollTo(0, 0);setMobileMenuOpen(false)}}>Signup</Link></li>
                             </>
                         ) : (
                             <>
                                 {user.role === 'trainer' && (
                                     <li>
-                                        <Link to="/profile" onClick={() => setMobileMenuOpen(false)}>View Profile</Link>
+                                        <Link to="/profile" 
+                                        onClick={() => {window.scrollTo(0, 0);setMobileMenuOpen(false)}}>View Profile</Link>
                                     </li>
                                 )}
                                 <li>
                                     <button
                                         onClick={() => {
-                                            logoutHandler()
-                                            setMobileMenuOpen(false)
+                                            window.scrollTo(0, 0);
+                                            logoutHandler();
+                                            setMobileMenuOpen(false);
                                         }}
                                         className="text-left w-full text-red-500"
                                     >

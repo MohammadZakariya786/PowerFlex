@@ -4,6 +4,7 @@ import { Search } from 'lucide-react';
 import { useDispatch } from 'react-redux';
 import { setSearchedQuery } from '@/redux/jobSlice';
 import { useNavigate } from 'react-router-dom';
+import CategoryCarousel from './CategoryCarousel';
 
 const HeroSection = () => {
   const [query, setQuery] = useState("");
@@ -38,11 +39,12 @@ const HeroSection = () => {
           />
           <Button
             onClick={searchJobHandler}
-            className="bg-indigo-600 text-white px-6 py-3 rounded-l-none hover:bg-indigo-700 transition"
+            className="bg-gradient-to-r from-blue-500 to-purple-500  text-white px-6 py-5 h-full rounded-l-none hover:bg-indigo-700 transition"
           >
             <Search className="w-5 h-5" />
           </Button>
         </div>
+      <CategoryCarousel/>
       </div>
     </section>
   );
