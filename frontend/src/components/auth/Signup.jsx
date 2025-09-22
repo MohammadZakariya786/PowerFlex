@@ -140,7 +140,7 @@ const Signup = () => {
         toast.error('Registration failed. Please try again.');
       }
     } finally {
-      if (loading) dispatch(setLoading(false));
+      dispatch(setLoading(false));
     }
   };
 
